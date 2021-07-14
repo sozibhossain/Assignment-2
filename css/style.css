@@ -4,4 +4,168 @@
 /* common style */
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
+
+/* Header area */
+
+.header-area {
+    width: 100%;
+    clear: both;
+    margin: 0;
+
+}
+
+#Top-header-area {
+    background-color: #2D25A0;
+    padding: 15px 0;
+
+
+}
+
+.inner-top-header {
+    overflow: hidden;
+
+}
+
+.main-menu {
+    width: 70%;
+    float: left;
+
+}
+
+.main-menu ul {
+    margin-left: 40px;
+    padding: 0;
+    list-style: none;
+
+}
+
+.main-menu ul li {
+    display: inline-block;
+    margin-right: 5px;
+
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+
+}
+
+.login-aera {
+    width: 20%;
+    float: right;
+}
+
+.login-aera form {}
+
+.login-aera input {
+    background-color: red;
+    border: 0 solid;
+    width: 30%;
+    padding: 5px;
+}
+
+/* Header area end */
+
+/* Banner area */
+
+.banner-area {
+    background-color: #2D25A0;
+    padding-top: 30px;
+
+}
+
+.banner {
+    display: flex;
+}
+
+.banner-title {
+    margin-left: 50px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.banner-title a {
+    color: #fff;
+    text-decoration: none;
+    background-color: red;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.banner-img img {
+    width: 556.01px;
+    height: 438px;
+    margin-left: 60px;
+}
+
+/* Banner area end */
+
+.players-area {
+    margin-top: 30px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+
+.player {
+    width: 330px;
+    height: 474px;
+    background-color: antiquewhite;
+    margin: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.player img {
+    width: 300px;
+    height: 256px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Footer area */
+
+.footer-area {
+    text-align: center;
+}
+
+.footer {}
+
+.Logo-area img {
+    width: 484px;
+    height: 110px;
+}
+
+.social-area ul {
+    list-style: none;
+
+
+}
+
+.social-area ul li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+
+}
+
+.social-area ul li a {}
+
+
+/* Footer area end */
