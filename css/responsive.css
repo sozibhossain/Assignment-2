@@ -1,0 +1,44 @@
+/* Media Queries */
+
+/* Mobile Devices */
+
+@media only screen and (max-width:688px) {
+    
+    /* banner area */
+    .banner {
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .banner-title {
+        margin-left: 30px;
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .banner-img img {
+        width: 300px;
+        height: 238px;
+        margin-top: 30px;
+        margin-left: 35px;
+    }
+    /* banner area end */
+
+    /* players area */
+
+    .players {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* player area end */
+
+    
+    
+    /* Footer area */
+
+    .Logo-area img {
+        width: 200px;
+        height: 110px;
+    }
+    /* Footer area end */
+    
+}

@@ -7,69 +7,6 @@ body {
     margin: 0;
 }
 
-/* Header area */
-
-.header-area {
-    width: 100%;
-    clear: both;
-    margin: 0;
-
-}
-
-#Top-header-area {
-    background-color: #2D25A0;
-    padding: 15px 0;
-
-
-}
-
-.inner-top-header {
-    overflow: hidden;
-
-}
-
-.main-menu {
-    width: 70%;
-    float: left;
-
-}
-
-.main-menu ul {
-    margin-left: 40px;
-    padding: 0;
-    list-style: none;
-
-}
-
-.main-menu ul li {
-    display: inline-block;
-    margin-right: 5px;
-
-}
-
-.main-menu ul li a {
-    text-decoration: none;
-    color: #fff;
-    margin-left: 20px;
-
-}
-
-.login-aera {
-    width: 20%;
-    float: right;
-}
-
-.login-aera form {}
-
-.login-aera input {
-    background-color: red;
-    border: 0 solid;
-    width: 30%;
-    padding: 5px;
-}
-
-/* Header area end */
-
 /* Banner area */
 
 .banner-area {
@@ -95,7 +32,12 @@ body {
     font-size: 15px;
     padding: 5px;
 }
-
+button{
+    border: 1px solid transparent;
+    background-color: red;
+    color: #fff;
+    padding: 5px;
+}
 .banner-img img {
     width: 556.01px;
     height: 438px;
@@ -106,6 +48,8 @@ body {
 
 .players-area {
     margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .players {
@@ -115,8 +59,8 @@ body {
 }
 
 .player {
-    width: 330px;
-    height: 474px;
+    width: 270px;
+    height: 374px;
     background-color: antiquewhite;
     margin: 10px;
     padding-left: 10px;
@@ -124,28 +68,20 @@ body {
 }
 
 .player img {
-    width: 300px;
-    height: 256px;
+    width: 260px;
+    height: 156px;
 
 }
-
-
-
-
-
-
-
-
-
-
 
 /* Footer area */
 
 .footer-area {
+    background-color: aquamarine;
     text-align: center;
+    padding-top: 50px;
+    margin-top: 50px;
+    padding-bottom: 50px;
 }
-
-.footer {}
 
 .Logo-area img {
     width: 484px;
@@ -154,8 +90,6 @@ body {
 
 .social-area ul {
     list-style: none;
-
-
 }
 
 .social-area ul li {
@@ -164,8 +98,6 @@ body {
     margin-right: 10px;
 
 }
-
-.social-area ul li a {}
 
 
 /* Footer area end */
